@@ -1,7 +1,8 @@
+
 # Badges
 
-[![CI](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/ci.yml)
-[![Labels](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/sync-labels.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/sync-labels.yml)
+[![Lint](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml)
+[![Test](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/test.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/test.yml)
 
 # Telegram Communication Agent
 

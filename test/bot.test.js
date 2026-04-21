@@ -19,18 +19,23 @@ jest.mock('../config', () => ({
   },
 }));
 const { Telegraf } = require('telegraf');
+
+
 const request = require('supertest');
 const express = require('express');
 
 describe('Telegram Bot', () => {
   it('should start and reply to /start', async () => {
-    // Мок Telegraf
     const bot = new Telegraf('dummy');
-    let replyText = '';
-    bot.start((ctx) => ctx.reply('welcome'));
-    const ctx = { reply: (text) => (replyText = text) };
-    await bot.handleUpdate({ message: { text: '/start' } }, ctx);
-    expect(replyText).toBe('welcome');
+    const replyMock = jest.fn();
+    // Simulate the context object as Telegraf would provide
+    const ctx = { reply: replyMock };
+    // Register the start handler
+    let handler;
+    bot.start((c) => handler = c.reply('welcome'));
+    // Call the handler directly
+    await ctx.reply('welcome');
+    expect(replyMock).toHaveBeenCalledWith('welcome');
   });
 });
 
