@@ -1,5 +1,13 @@
+### CI Labels
+The repository includes labels for CI status tracking:
 
-# telegram-comm-agent
+- `ci:passing` (green): CI passing
+- `ci:failing` (red): CI failing
+- `ci:needs-update` (yellow): CI config or tests need update
+
+You can use these labels on issues and pull requests to indicate CI status.
+
+# Telegram Communication Agent
 
 Generic, configurable Telegram communication agent bot template.
 
