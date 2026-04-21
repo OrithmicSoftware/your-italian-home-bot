@@ -5,7 +5,6 @@
     "jest": true
   },
   "extends": ["eslint:recommended"],
-  "ignorePatterns": ["dist/", "lib/**/dist/", "lib/**/bundle.js"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
