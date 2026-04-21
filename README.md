@@ -1,11 +1,7 @@
-### CI Labels
-The repository includes labels for CI status tracking:
+# Badges
 
-- `ci:passing` (green): CI passing
-- `ci:failing` (red): CI failing
-- `ci:needs-update` (yellow): CI config or tests need update
-
-You can use these labels on issues and pull requests to indicate CI status.
+[![CI](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/ci.yml)
+[![Labels](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/sync-labels.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/sync-labels.yml)
 
 # Telegram Communication Agent
 
