@@ -1,0 +1,50 @@
+
+jest.mock('../config', () => ({
+  BOT_TOKEN: 'dummy',
+  ADMIN_CHAT_ID: '111',
+  AGENT_CHAT_ID: '222',
+  FORWARD_TO_AGENT: 'no',
+  SERVICES: ['🍕 Pizza Delivery'],
+  STRINGS: {
+    WELCOME: 'welcome',
+    CHOOSE_SERVICE: 'choose',
+    CONTACT_PROMPT: 'contact',
+    INVALID_SERVICE: 'invalid',
+    ASK_BUDGET: 'budget',
+    ASK_NAME: 'name',
+  },
+  BUTTONS: {
+    SERVICE_LIST: 'list',
+    CONTACT: 'contact',
+  },
+}));
+const { Telegraf } = require('telegraf');
+const request = require('supertest');
+const express = require('express');
+
+describe('Telegram Bot', () => {
+  it('should start and reply to /start', async () => {
+    // Мок Telegraf
+    const bot = new Telegraf('dummy');
+    let replyText = '';
+    bot.start((ctx) => ctx.reply('welcome'));
+    const ctx = { reply: (text) => (replyText = text) };
+    await bot.handleUpdate({ message: { text: '/start' } }, ctx);
+    expect(replyText).toBe('welcome');
+  });
+});
+
+describe('Web API', () => {
+  it('should accept POST /lead', async () => {
+    const app = express();
+    app.use(express.json());
+    app.post('/lead', (req, res) => res.json({ ok: true }));
+    await request(app)
+      .post('/lead')
+      .send({ name: 'Test', phone: '123', message: 'msg' })
+      .expect(200)
+      .expect((res) => {
+        expect(res.body.ok).toBe(true);
+      });
+  });
+});

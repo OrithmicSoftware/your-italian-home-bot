@@ -1,0 +1,5 @@
+[
+  { "name": "bot", "color": "0e8a16", "description": "Telegram bot related" },
+  { "name": "help wanted", "color": "008672", "description": "Extra attention is needed" },
+  { "name": "good first issue", "color": "7057ff", "description": "Good for newcomers" }
+]
