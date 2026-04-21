@@ -5,7 +5,27 @@
 
 # Your Italian Home Bot
 
+
 This is a minimal consumer of the [telegram-comm-agent](https://github.com/OrithmicSoftware/telegram-comm-agent) library.
+
+## Integration Note
+
+This project now uses a single bundled file: `lib/telegram-comm-agent.min.js`.
+You do not need the full source or dist directory from the library—just this minified bundle.
+
+All bot logic, step flow, and process handling are managed by the library. See the [telegram-comm-agent documentation](https://github.com/OrithmicSoftware/telegram-comm-agent) for full configuration, flow, and API details.
+
+### Quick Start
+
+1. Copy `telegram-comm-agent.min.js` from the library's `dist/bundle.js`.
+2. Place it in `lib/telegram-comm-agent.min.js`.
+3. Use it in your bot:
+
+```js
+const { createCommAgent, createLeadWebServer, makeCorsConfig } = require('./lib/telegram-comm-agent.min.js');
+```
+
+No other files from the library are required.
 
 ## Usage
 

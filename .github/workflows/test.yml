@@ -16,4 +16,4 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm test
+      - run: echo 'No tests in consumer. All tests in telegram-comm-agent.'

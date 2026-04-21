@@ -1,7 +1,6 @@
 node_modules/
 .env
 .env.example
-config.js
 .DS_Store
 npm-debug.log
 yarn-debug.log

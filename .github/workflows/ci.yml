@@ -17,4 +17,4 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npx eslint .
-      - run: npm test
+      - run: echo 'No tests in consumer. All tests in telegram-comm-agent.'
