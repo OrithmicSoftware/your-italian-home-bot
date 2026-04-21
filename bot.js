@@ -1,6 +1,6 @@
-const { createCommAgent } = require('telegram-comm-agent');
-const { createLeadWebServer } = require('telegram-comm-agent/web-server');
-const { makeCorsConfig } = require('telegram-comm-agent/cors');
+const { createCommAgent } = require('./lib/telegram-comm-agent');
+const { createLeadWebServer } = require('./lib/telegram-comm-agent/web-server');
+const { makeCorsConfig } = require('./lib/telegram-comm-agent/cors');
 const config = require('./config');
 const secrets = require('./secrets');
 
