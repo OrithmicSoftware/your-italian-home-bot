@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf');
-const config = require('../config');
+const config = require('../config.example');
 
 describe('Step Flow', () => {
   let bot;

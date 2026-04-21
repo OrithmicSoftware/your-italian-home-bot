@@ -9,6 +9,54 @@
 Generic, configurable Telegram communication agent bot template.
 
 ## Features
+
+
+## Step Flow Guide
+
+```mermaid
+flowchart TD
+	A[User selects service] --> B{FLOW Step 1: budget}
+	B --> C{FLOW Step 2: district}
+	C --> D{FLOW Step 3: name}
+	D --> E{FLOW Step 4: phone}
+	E --> F[Bot sends collected info to admin]
+	F --> G[Bot shows confirmation to user]
+```
+
+The bot uses a fully data-driven step flow, defined in the `FLOW` array in `config.js` (see also `config.example.js`). Each step collects a piece of information from the user, and the prompts and order are fully configurable.
+
+**Example FLOW (from config.example.js):**
+
+```
+FLOW: [
+	{ field: 'budget', prompt: 'Please enter your budget:' },
+	{ field: 'district', prompt: 'Please enter your preferred district:' },
+	{ field: 'name', prompt: 'Please enter your name:' },
+	{ field: 'phone', prompt: 'Please enter your phone number:' },
+]
+```
+
+**How it works:**
+1. User selects a service from the menu.
+2. The bot asks each prompt in order, saving the user's answer for each field.
+3. After the last step, the bot sends the collected info to the admin and shows a confirmation message to the user.
+
+**To customize the flow:**
+- Edit the `FLOW` array in `config.js` to add, remove, or reorder steps.
+- Change the `prompt` text to localize or clarify questions.
+- Add new fields as needed for your use case.
+
+**Example user journey:**
+1. User: Selects "Pizza Delivery"
+2. Bot: "Please enter your budget:"
+3. User: "20 EUR"
+4. Bot: "Please enter your preferred district:"
+5. User: "Downtown"
+6. Bot: "Please enter your name:"
+7. User: "Alex"
+8. Bot: "Please enter your phone number:"
+9. User: "1234567890"
+10. Bot: "Thank you! Your request has been sent to the admin."
 - Data-driven, step-by-step service selection
 - Collects user info (service, budget, district, name, phone, etc.)
 - Sends leads/messages to admin and agent
