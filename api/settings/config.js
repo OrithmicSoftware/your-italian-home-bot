@@ -57,34 +57,6 @@ module.exports = {
     WAITING_FORWARD_CONFIRM: 'Ожидает подтверждения для отправки агенту.',
     CHOOSE_SERVICE: 'Пожалуйста, выберите интересующую услугу из меню ниже:',
     CONTACT_PROMPT: 'Пожалуйста, напишите ваше имя, бюджет и интересующий район. Я свяжусь с вами в ближайшее время!',
-    INVALID_SERVICE: 'Пожалуйста, выберите услугу из списка.',
-    FLOW: [
-      { field: 'budget', prompt: 'Пожалуйста, укажите ваш бюджет:' },
-      { field: 'district', prompt: 'Пожалуйста, укажите интересующий район:' },
-      { field: 'name', prompt: 'Пожалуйста, напишите ваше имя:' },
-      { field: 'phone', prompt: 'Пожалуйста, напишите ваш номер телефона:' }
-    ],
-    LEAD_TEMPLATE: (collected, user) => {
-      const serviceLabel = collected.service ? (SERVICES_OBJ[collected.service] || collected.service) : '';
-      let msg = `Новая заявка:\nУслуга: ${serviceLabel}`;
-      if (collected.budget) msg += `\nБюджет: ${collected.budget}`;
-      if (collected.district) msg += `\nРайон: ${collected.district}`;
-      msg += `\nИмя: ${collected.name}\nТелефон: ${collected.phone}\n@${user.username || user.first_name} (${user.id})`;
-      return msg;
-    },
-    LEAD_SENT: 'Спасибо! Ваша заявка отправлена администратору на рассмотрение.',
-    APPROVED_CB: 'Заявка отправлена агенту.',
-    REJECTED_CB: 'Заявка отклонена.',
-    UNKNOWN_CB: 'Неизвестное действие.',
-    CONFIG_ERROR_USER: 'Произошла неизвестная ошибка. Мы уведомили администратора.',
-    CONFIG_ERROR_ADMIN_PREFIX: 'Config error:',
-    MSG_TEMPLATE: (user, text) => `New message from @${user.username || user.first_name} (${user.id}):\n${text}`,
-    MSG_SENT: 'Спасибо! Ваше сообщение отправлено администратору на рассмотрение.',
-  },
-
-  // Menu button labels
-  BUTTONS: {
-    SERVICE_LIST: '📋 Список услуг',
-    CONTACT: '✉️ Связаться',
-  },
+    INVALID_SERVICE: 'Пожалуйста, выберите услугу из списка.'
+  }
 };
