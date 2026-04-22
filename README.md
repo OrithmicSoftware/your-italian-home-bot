@@ -1,3 +1,18 @@
+# Health check
+
+GET /api/telegram
+```
+curl https://your-italian-home-bot.vercel.app/api/telegram
+```
+
+# Send Telegram update (POST)
+
+POST /api/telegram
+```
+curl -X POST https://your-italian-home-bot.vercel.app/api/telegram \
+	-H "Content-Type: application/json" \
+	-d '{"update_id":123,"message":{"message_id":1,"from":{"id":1,"is_bot":false,"first_name":"Test"},"chat":{"id":1,"type":"private"},"date":1234567890,"text":"/start"}}'
+```
 
 # Badges
 
