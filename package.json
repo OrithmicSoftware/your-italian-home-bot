@@ -1,13 +1,14 @@
 {
-  "name": "telegram-comm-agent",
+  "name": "your-italian-home-bot",
   "version": "1.0.0",
   "description": "Telegram bot for forwarding leads from the website to admins and agents.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
     "dev": "nodemon bot.js",
-    "test": "echo 'No tests in consumer. All tests in telegram-comm-agent.' && exit 0",
-    "lint": "eslint ."
+    "test": "echo 'No tests' && exit 0",
+    "lint": "eslint .",
+    "update-agent-bundle": "node ./scripts/update-agent-bundle.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
