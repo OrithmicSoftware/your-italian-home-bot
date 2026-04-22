@@ -1,19 +1,3 @@
-# Health check
-
-GET /api/telegram
-```
-curl https://your-italian-home-bot.vercel.app/api/telegram
-```
-
-# Send Telegram update (POST)
-
-POST /api/telegram
-```
-curl -X POST https://your-italian-home-bot.vercel.app/api/telegram \
-	-H "Content-Type: application/json" \
-	-d '{"update_id":123,"message":{"message_id":1,"from":{"id":1,"is_bot":false,"first_name":"Test"},"chat":{"id":1,"type":"private"},"date":1234567890,"text":"/start"}}'
-```
-
 # Badges
 
 [![Lint](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml)
@@ -82,6 +66,22 @@ Do not rely on a local `cors.config.js` file — prefer `secrets.CORS_ORIGINS` s
 
 ### Sensitive Data
 - Never commit `.env` or `config.js` with real secrets.
+
+# Health check
+
+GET /api/telegram
+```
+curl https://your-italian-home-bot.vercel.app/api/telegram
+```
+
+# Send Telegram update (POST)
+
+POST /api/telegram
+```
+curl -X POST https://your-italian-home-bot.vercel.app/api/telegram \
+	-H "Content-Type: application/json" \
+	-d '{"update_id":123,"message":{"message_id":1,"from":{"id":1,"is_bot":false,"first_name":"Test"},"chat":{"id":1,"type":"private"},"date":1234567890,"text":"/start"}}'
+```
 
 ## License
 MIT
