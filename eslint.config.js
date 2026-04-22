@@ -3,7 +3,7 @@
 /** @type {import('eslint').Linter.FlatConfig} */
 module.exports = [
   {
-    ignores: ["node_modules/**", "test/**", "*.config.js", "*.example.js"],
+    ignores: ["node_modules/**", "test/**", "*.config.js", "*.example.js", "lib/**"],
   },
   {
     languageOptions: {

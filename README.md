@@ -30,22 +30,24 @@ No other files from the library are required.
 
 ## Usage
 
-1. Copy `config.example.js` and `secrets.example.js` from the library to your project and fill in your values.
-2. Add your configuration and secrets as needed.
+
+1. Copy `secrets.example.js` from the library to your project and fill in your values, or use environment variables.
+2. Add your secrets as needed.
 3. Run `npm install` and start the bot with `npm start`.
 
+
 All bot logic, step flow, and process handling are managed by the library. See the [telegram-comm-agent documentation](https://github.com/OrithmicSoftware/telegram-comm-agent) for full configuration, flow, and API details.
-- Do not hardcode strings in `bot.js`.
-- See `config.example.js` for a safe, English, unrelated onboarding example.
+* Do not hardcode strings in `bot.js`.
 
 ### Services Structure
-Services are defined as an object in `config.js`:
+
+Services are defined in your configuration object or environment:
 
 ```
 SERVICES: {
-	pizza: '🍕 Pizza Delivery',
-	car: '🚗 Car Rental',
-	...
+  pizza: '🍕 Pizza Delivery',
+  car: '🚗 Car Rental',
+  ...
 }
 ```
 

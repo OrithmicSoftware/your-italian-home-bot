@@ -9,6 +9,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      BOT_TOKEN: dummy
+      ADMIN_CHAT_ID: dummy
+      AGENT_CHAT_ID: dummy
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js

@@ -8,6 +8,8 @@
     "dev": "nodemon bot.js",
     "test": "jest",
     "lint": "eslint . --format unix",
+    "validate": "node scripts/validate-env.js",
+    "postinstall": "npm run validate",
     "update-agent-bundle": "node ./scripts/update-agent-bundle.js"
   },
   "dependencies": {
