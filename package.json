@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bot.js",
     "dev": "nodemon bot.js",
-    "test": "echo 'No tests' && exit 0",
+    "test": "jest",
     "lint": "eslint .",
     "update-agent-bundle": "node ./scripts/update-agent-bundle.js"
   },

@@ -2,6 +2,8 @@
 # Badges
 
 [![Lint](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/lint.yml)
+[![Test](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/test.yml/badge.svg)](https://github.com/OrithmicSoftware/your-italian-home-bot/actions/workflows/test.yml)
+
 
 # Your Italian Home Bot
 
