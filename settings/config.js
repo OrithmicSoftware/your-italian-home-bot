@@ -13,16 +13,30 @@ const SERVICES_OBJ = {
 
 // Robust template functions (always accept full collected object)
 const LEAD_TEMPLATE = (collected) => {
-  const { name, phone, ...rest } = collected || {};
-  let msg = `Web Lead:\nName: ${name || ''}\nPhone: ${phone || ''}`;
+  const { name, phone, service, message, ...rest } = collected || {};
+  let msg = `Лид с сайта:\n`;
+  if (name) msg += `Имя: ${name}\n`;
+  if (service) msg += `Услуга: ${service}\n`;
+  if (phone) msg += `Телефон: ${phone}\n`;
+  if (message) msg += `Сообщение: ${message}\n`;
   Object.entries(rest).forEach(([k, v]) => {
-    msg += `\n${k}: ${v}`;
+    msg += `${k}: ${v}\n`;
   });
-  return msg;
+  return msg.trim();
 };
 
 const MSG_TEMPLATE = (collected) => {
-  return `Message:\n` + JSON.stringify(collected, null, 2);
+  const { service, budget, district, name, phone, ...rest } = collected || {};
+  let msg = 'Лид из бота:\n';
+  if (service) msg += `Услуга: ${service}\n`;
+  if (budget) msg += `Бюджет: ${budget}\n`;
+  if (district) msg += `Район: ${district}\n`;
+  if (name) msg += `Имя: ${name}\n`;
+  if (phone) msg += `Телефон: ${phone}\n`;
+  Object.entries(rest).forEach(([k, v]) => {
+    msg += `${k}: ${v}\n`;
+  });
+  return msg.trim();
 };
 
 // FORWARD_TO_AGENT: 'no', 'all', or 'ask'

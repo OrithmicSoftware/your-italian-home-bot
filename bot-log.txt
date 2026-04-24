@@ -259,3 +259,86 @@
 [2026-04-24T11:59:12.353Z] Web server listening on port 3000
 [2026-04-24T11:59:12.354Z] Web server listening on port 3000
 [2026-04-24T11:59:16.476Z] Web server listening on port 3999
+[2026-04-24T12:00:14.414Z] [comm-agent] createCommAgent called
+[2026-04-24T12:00:14.419Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T12:00:14.422Z] [comm-agent] Bot instance created
+[2026-04-24T12:00:14.436Z] Bot and web lead server started.
+[2026-04-24T12:00:14.440Z] Bot and web lead server started.
+[2026-04-24T12:00:14.447Z] Web server listening on port 3000
+[2026-04-24T12:00:14.448Z] Web server listening on port 3000
+[2026-04-24T12:00:21.674Z] Web server listening on port 3999
+[2026-04-24T12:03:26.976Z] [comm-agent] createCommAgent called
+[2026-04-24T12:03:26.978Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T12:03:26.981Z] [comm-agent] Bot instance created
+[2026-04-24T12:03:26.986Z] Bot and web lead server started.
+[2026-04-24T12:03:26.987Z] Bot and web lead server started.
+[2026-04-24T12:03:26.988Z] Web server listening on port 3000
+[2026-04-24T12:03:26.989Z] Web server listening on port 3000
+[2026-04-24T12:04:39.792Z] [comm-agent] createCommAgent called
+[2026-04-24T12:04:39.793Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T12:04:39.795Z] [comm-agent] Bot instance created
+[2026-04-24T12:04:39.800Z] Bot and web lead server started.
+[2026-04-24T12:04:39.801Z] Bot and web lead server started.
+[2026-04-24T12:04:39.802Z] Web server listening on port 3000
+[2026-04-24T12:04:39.802Z] Web server listening on port 3000
+[2026-04-24T12:31:28.069Z] [comm-agent] createCommAgent called
+[2026-04-24T12:31:28.070Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T12:31:28.072Z] [comm-agent] Bot instance created
+[2026-04-24T12:31:28.076Z] Bot and web lead server started.
+[2026-04-24T12:31:28.077Z] Bot and web lead server started.
+[2026-04-24T12:31:28.078Z] Web server listening on port 3000
+[2026-04-24T12:31:28.078Z] Web server listening on port 3000
+[2026-04-24T14:31:37.397Z] [comm-agent] createCommAgent called
+[2026-04-24T14:31:37.399Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T14:31:37.401Z] [comm-agent] Bot instance created
+[2026-04-24T14:31:37.406Z] Bot and web lead server started.
+[2026-04-24T14:31:37.407Z] Bot and web lead server started.
+[2026-04-24T14:31:37.408Z] Web server listening on port 3000
+[2026-04-24T14:31:37.409Z] Web server listening on port 3000
+[2026-04-24T14:31:39.317Z] [comm-agent] createCommAgent called
+[2026-04-24T14:31:39.321Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T14:31:39.324Z] [comm-agent] Bot instance created
+[2026-04-24T14:31:39.336Z] Bot and web lead server started.
+[2026-04-24T14:31:39.337Z] Bot and web lead server started.
+[2026-04-24T14:31:39.340Z] Web server listening on port 3000
+[2026-04-24T14:31:39.342Z] Web server listening on port 3000
+[2026-04-24T14:32:04.989Z] [comm-agent] createCommAgent called
+[2026-04-24T14:32:04.990Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T14:32:04.992Z] [comm-agent] Bot instance created
+[2026-04-24T14:32:04.997Z] Bot and web lead server started.
+[2026-04-24T14:32:04.997Z] Bot and web lead server started.
+[2026-04-24T14:32:04.998Z] Web server listening on port 3000
+[2026-04-24T14:32:04.999Z] Web server listening on port 3000
+[2026-04-24T14:32:35.620Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:35.620Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:35.622Z] [comm-agent] /start received from 544729737
+[2026-04-24T14:32:35.622Z] [comm-agent] /start received from 544729737
+[2026-04-24T14:32:38.846Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:38.846Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:38.847Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T14:32:38.847Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T14:32:40.147Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:40.147Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:40.148Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-24T14:32:40.148Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-24T14:32:40.149Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-24T14:32:40.149Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-24T14:32:43.497Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:43.497Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:43.498Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-24T14:32:43.498Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-24T14:32:43.498Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-24T14:32:43.498Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-24T14:32:46.850Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:46.850Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T14:32:46.851Z] [comm-agent] message event from 544729737 text: 82647
+[2026-04-24T14:32:46.851Z] [comm-agent] message event from 544729737 text: 82647
+[2026-04-24T14:32:46.852Z] [comm-agent] processMessage from 544729737 text: 82647
+[2026-04-24T14:32:46.852Z] [comm-agent] processMessage from 544729737 text: 82647
+[2026-04-24T14:32:46.853Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T14:32:46.853Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T14:32:46.854Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T14:32:46.854Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T14:32:46.855Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T14:32:46.855Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T14:33:10.702Z] Web server listening on port 3999
