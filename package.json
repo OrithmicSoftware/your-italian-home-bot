@@ -1,6 +1,6 @@
 {
   "name": "your-italian-home-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Telegram bot for forwarding leads from the website to admins and agents.",
   "main": "index.js",
   "scripts": {
