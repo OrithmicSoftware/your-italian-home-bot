@@ -1,4 +1,5 @@
 // scripts/validate-env.js
+require('dotenv').config();
 const requiredVars = [
   'BOT_TOKEN',
   'ADMIN_CHAT_ID',

@@ -1,0 +1,261 @@
+[Bot log initialized]
+[2026-04-24T04:48:58.187Z] [comm-agent] createCommAgent called
+[2026-04-24T04:48:58.189Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T04:48:58.190Z] [comm-agent] Bot instance created
+[2026-04-24T04:48:58.195Z] Bot and web lead server started.
+[2026-04-24T04:48:58.196Z] Web server listening on port 3000
+[2026-04-24T04:51:03.864Z] [comm-agent] createCommAgent called
+[2026-04-24T04:51:03.866Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T04:51:03.867Z] [comm-agent] Bot instance created
+[2026-04-24T04:51:03.874Z] Bot and web lead server started.
+[2026-04-24T04:51:03.875Z] Bot and web lead server started.
+[2026-04-24T04:51:03.876Z] Web server listening on port 3000
+[2026-04-24T04:51:03.877Z] Web server listening on port 3000
+[2026-04-24T04:52:31.707Z] [DEBUG] Manual poll: got 4 updates
+[2026-04-24T04:57:28.589Z] [comm-agent] createCommAgent called
+[2026-04-24T04:57:28.591Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T04:57:28.594Z] [comm-agent] Bot instance created
+[2026-04-24T04:57:28.599Z] Bot and web lead server started.
+[2026-04-24T04:57:28.600Z] Bot and web lead server started.
+[2026-04-24T04:57:28.601Z] Web server listening on port 3000
+[2026-04-24T04:57:28.601Z] Web server listening on port 3000
+[2026-04-24T04:57:29.203Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.204Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.205Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.206Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.206Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.207Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.207Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.207Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:57:29.209Z] [comm-agent] /start received from 544729737
+[2026-04-24T04:57:29.209Z] [comm-agent] /start received from 544729737
+[2026-04-24T04:57:29.210Z] [comm-agent] /start received from 544729737
+[2026-04-24T04:57:29.210Z] [comm-agent] /start received from 544729737
+[2026-04-24T04:57:29.213Z] [comm-agent] message event from 1577501055 text: Super
+[2026-04-24T04:57:29.214Z] [comm-agent] message event from 1577501055 text: Super
+[2026-04-24T04:57:29.214Z] [comm-agent] processMessage from 1577501055 text: Super
+[2026-04-24T04:57:29.215Z] [comm-agent] processMessage from 1577501055 text: Super
+[2026-04-24T04:57:29.215Z] [comm-agent] Fallback message from 1577501055 text: Super
+[2026-04-24T04:57:29.216Z] [comm-agent] Fallback message from 1577501055 text: Super
+[2026-04-24T04:57:29.216Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.217Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.217Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.217Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.218Z] [comm-agent] Fallback message from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.218Z] [comm-agent] Fallback message from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:57:29.220Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T04:57:29.220Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T04:57:29.221Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T04:57:29.221Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T04:57:29.222Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:57:29.222Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:57:29.222Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:57:29.223Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:57:29.223Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T04:57:29.224Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T04:57:29.224Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T04:57:29.224Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T04:58:38.556Z] [comm-agent] createCommAgent called
+[2026-04-24T04:58:38.558Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T04:58:38.559Z] [comm-agent] Bot instance created
+[2026-04-24T04:58:38.565Z] Bot and web lead server started.
+[2026-04-24T04:58:38.566Z] Bot and web lead server started.
+[2026-04-24T04:58:38.566Z] Web server listening on port 3000
+[2026-04-24T04:58:38.567Z] Web server listening on port 3000
+[2026-04-24T04:58:39.031Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:58:39.031Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:58:39.033Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T04:58:39.033Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T04:59:29.538Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:29.539Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:29.540Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:59:29.540Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:59:29.541Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:59:29.542Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T04:59:34.599Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:34.599Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:34.600Z] [comm-agent] message event from 544729737 text: 100500
+[2026-04-24T04:59:34.601Z] [comm-agent] message event from 544729737 text: 100500
+[2026-04-24T04:59:34.602Z] [comm-agent] processMessage from 544729737 text: 100500
+[2026-04-24T04:59:34.602Z] [comm-agent] processMessage from 544729737 text: 100500
+[2026-04-24T04:59:43.948Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:43.948Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:43.949Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-24T04:59:43.949Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-24T04:59:43.950Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-24T04:59:43.950Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-24T04:59:45.813Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:45.814Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:45.814Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-24T04:59:45.815Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-24T04:59:45.816Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-24T04:59:45.816Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-24T04:59:49.949Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:49.950Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T04:59:49.950Z] [comm-agent] message event from 544729737 text: 05665465
+[2026-04-24T04:59:49.950Z] [comm-agent] message event from 544729737 text: 05665465
+[2026-04-24T04:59:49.951Z] [comm-agent] processMessage from 544729737 text: 05665465
+[2026-04-24T04:59:49.951Z] [comm-agent] processMessage from 544729737 text: 05665465
+[2026-04-24T04:59:49.952Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T04:59:49.953Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T04:59:49.953Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:59:49.953Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T04:59:49.954Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T04:59:49.954Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T05:00:43.710Z] [comm-agent] createCommAgent called
+[2026-04-24T05:00:43.712Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:00:43.718Z] [comm-agent] Bot instance created
+[2026-04-24T05:00:43.738Z] Bot and web lead server started.
+[2026-04-24T05:00:43.740Z] Bot and web lead server started.
+[2026-04-24T05:00:43.744Z] Web server listening on port 3000
+[2026-04-24T05:00:43.744Z] Web server listening on port 3000
+[2026-04-24T05:01:50.486Z] [comm-agent] createCommAgent called
+[2026-04-24T05:01:50.488Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:01:50.490Z] [comm-agent] Bot instance created
+[2026-04-24T05:01:50.494Z] Bot and web lead server started.
+[2026-04-24T05:01:50.495Z] Bot and web lead server started.
+[2026-04-24T05:01:50.496Z] Web server listening on port 3000
+[2026-04-24T05:01:50.496Z] Web server listening on port 3000
+[2026-04-24T05:02:20.627Z] [comm-agent] createCommAgent called
+[2026-04-24T05:02:20.630Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:02:20.634Z] [comm-agent] Bot instance created
+[2026-04-24T05:02:20.642Z] Bot and web lead server started.
+[2026-04-24T05:02:20.643Z] Bot and web lead server started.
+[2026-04-24T05:02:20.646Z] Web server listening on port 3000
+[2026-04-24T05:02:20.648Z] Web server listening on port 3000
+[2026-04-24T05:02:22.302Z] [comm-agent] createCommAgent called
+[2026-04-24T05:02:22.303Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:02:22.306Z] [comm-agent] Bot instance created
+[2026-04-24T05:02:22.315Z] Bot and web lead server started.
+[2026-04-24T05:02:22.315Z] Bot and web lead server started.
+[2026-04-24T05:02:22.317Z] Web server listening on port 3000
+[2026-04-24T05:02:22.317Z] Web server listening on port 3000
+[2026-04-24T05:03:00.001Z] [comm-agent] createCommAgent called
+[2026-04-24T05:03:00.006Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:03:00.009Z] [comm-agent] Bot instance created
+[2026-04-24T05:03:00.021Z] Bot and web lead server started.
+[2026-04-24T05:03:00.022Z] Bot and web lead server started.
+[2026-04-24T05:03:00.023Z] Web server listening on port 3000
+[2026-04-24T05:03:00.024Z] Web server listening on port 3000
+[2026-04-24T05:03:41.472Z] [comm-agent] createCommAgent called
+[2026-04-24T05:03:41.474Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T05:03:41.475Z] [comm-agent] Bot instance created
+[2026-04-24T05:03:41.480Z] Bot and web lead server started.
+[2026-04-24T05:03:41.480Z] Bot and web lead server started.
+[2026-04-24T05:03:41.482Z] Web server listening on port 3000
+[2026-04-24T05:03:41.483Z] Web server listening on port 3000
+[2026-04-24T07:06:00.333Z] [comm-agent] createCommAgent called
+[2026-04-24T07:06:00.334Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T07:06:00.337Z] [comm-agent] Bot instance created
+[2026-04-24T07:06:00.345Z] Bot and web lead server started.
+[2026-04-24T07:06:00.345Z] Bot and web lead server started.
+[2026-04-24T07:06:00.346Z] Web server listening on port 3000
+[2026-04-24T07:06:00.347Z] Web server listening on port 3000
+[2026-04-24T07:06:04.592Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:04.593Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:04.596Z] [comm-agent] /start received from 544729737
+[2026-04-24T07:06:04.596Z] [comm-agent] /start received from 544729737
+[2026-04-24T07:06:09.830Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:09.831Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:09.832Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T07:06:09.833Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-24T07:06:13.518Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:13.519Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:13.520Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-24T07:06:13.521Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-24T07:06:13.522Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-24T07:06:13.523Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-24T07:06:16.283Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:16.283Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:16.284Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-24T07:06:16.285Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-24T07:06:16.286Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-24T07:06:16.286Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-24T07:06:17.759Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:17.760Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T07:06:17.761Z] [comm-agent] message event from 544729737 text: test
+[2026-04-24T07:06:17.761Z] [comm-agent] message event from 544729737 text: test
+[2026-04-24T07:06:17.762Z] [comm-agent] processMessage from 544729737 text: test
+[2026-04-24T07:06:17.763Z] [comm-agent] processMessage from 544729737 text: test
+[2026-04-24T07:06:17.765Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T07:06:17.765Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-24T07:06:17.767Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T07:06:17.767Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T07:06:17.768Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T07:06:17.768Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-24T09:09:22.415Z] [comm-agent] createCommAgent called
+[2026-04-24T09:09:22.416Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T09:09:22.418Z] [comm-agent] Bot instance created
+[2026-04-24T09:09:22.427Z] Bot and web lead server started.
+[2026-04-24T09:09:22.428Z] Bot and web lead server started.
+[2026-04-24T09:09:22.429Z] Web server listening on port 3000
+[2026-04-24T09:09:22.430Z] Web server listening on port 3000
+[2026-04-24T09:09:45.687Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T09:09:45.688Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-24T09:09:45.690Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.690Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.691Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.692Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.692Z] [comm-agent] Fallback message from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.692Z] [comm-agent] Fallback message from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-24T09:09:45.694Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T09:09:45.694Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.MSG_TEMPLATE is not a function
+[2026-04-24T09:09:45.697Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T09:09:45.697Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-24T09:09:45.698Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T09:09:45.699Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.MSG_TEMPLATE is not a function [object Object]
+[2026-04-24T09:14:45.716Z] [comm-agent] createCommAgent called
+[2026-04-24T09:14:45.718Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T09:14:45.720Z] [comm-agent] Bot instance created
+[2026-04-24T09:14:45.726Z] Bot and web lead server started.
+[2026-04-24T09:14:45.727Z] Bot and web lead server started.
+[2026-04-24T09:14:45.729Z] Web server listening on port 3000
+[2026-04-24T09:14:45.729Z] Web server listening on port 3000
+[2026-04-24T11:00:41.205Z] [comm-agent] createCommAgent called
+[2026-04-24T11:00:41.207Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:00:41.210Z] [comm-agent] Bot instance created
+[2026-04-24T11:00:41.218Z] Bot and web lead server started.
+[2026-04-24T11:00:41.219Z] Bot and web lead server started.
+[2026-04-24T11:00:41.220Z] Web server listening on port 3000
+[2026-04-24T11:00:41.220Z] Web server listening on port 3000
+[2026-04-24T11:00:48.025Z] [comm-agent] createCommAgent called
+[2026-04-24T11:00:48.031Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:00:48.036Z] [comm-agent] Bot instance created
+[2026-04-24T11:00:48.045Z] Bot and web lead server started.
+[2026-04-24T11:00:48.046Z] Bot and web lead server started.
+[2026-04-24T11:00:48.047Z] Web server listening on port 3000
+[2026-04-24T11:00:48.047Z] Web server listening on port 3000
+[2026-04-24T11:00:53.860Z] Web server listening on port 3999
+[2026-04-24T11:01:07.585Z] [comm-agent] createCommAgent called
+[2026-04-24T11:01:07.586Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:01:07.588Z] [comm-agent] Bot instance created
+[2026-04-24T11:01:07.593Z] Bot and web lead server started.
+[2026-04-24T11:01:07.594Z] Bot and web lead server started.
+[2026-04-24T11:01:07.594Z] Web server listening on port 3000
+[2026-04-24T11:01:07.595Z] Web server listening on port 3000
+[2026-04-24T11:01:12.316Z] Web server listening on port 3999
+[2026-04-24T11:01:35.210Z] [comm-agent] createCommAgent called
+[2026-04-24T11:01:35.211Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:01:35.213Z] [comm-agent] Bot instance created
+[2026-04-24T11:01:35.217Z] Bot and web lead server started.
+[2026-04-24T11:01:35.218Z] Bot and web lead server started.
+[2026-04-24T11:01:35.219Z] Web server listening on port 3000
+[2026-04-24T11:01:35.219Z] Web server listening on port 3000
+[2026-04-24T11:01:40.521Z] Web server listening on port 3999
+[2026-04-24T11:58:32.659Z] Web server listening on port 3999
+[2026-04-24T11:58:55.419Z] [comm-agent] createCommAgent called
+[2026-04-24T11:58:55.420Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:58:55.422Z] [comm-agent] Bot instance created
+[2026-04-24T11:58:55.426Z] Bot and web lead server started.
+[2026-04-24T11:58:55.427Z] Bot and web lead server started.
+[2026-04-24T11:58:55.428Z] Web server listening on port 3000
+[2026-04-24T11:58:55.428Z] Web server listening on port 3000
+[2026-04-24T11:58:59.706Z] Web server listening on port 3999
+[2026-04-24T11:59:12.345Z] [comm-agent] createCommAgent called
+[2026-04-24T11:59:12.346Z] [comm-agent] Initializing Telegraf bot
+[2026-04-24T11:59:12.347Z] [comm-agent] Bot instance created
+[2026-04-24T11:59:12.352Z] Bot and web lead server started.
+[2026-04-24T11:59:12.352Z] Bot and web lead server started.
+[2026-04-24T11:59:12.353Z] Web server listening on port 3000
+[2026-04-24T11:59:12.354Z] Web server listening on port 3000
+[2026-04-24T11:59:16.476Z] Web server listening on port 3999
