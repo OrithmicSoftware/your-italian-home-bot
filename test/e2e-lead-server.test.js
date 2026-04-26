@@ -3,7 +3,7 @@ defineTest();
 
 function defineTest() {
   const { createCommAgent } = require('telegram-comm-agent');
-  const { createWebServer } = require('telegram-comm-agent/web-server');
+  const { createWebServer } = require('telegram-comm-agent');
   const config = require('../settings/config');
   const secrets = require('../settings/secrets');
   const request = require('supertest');

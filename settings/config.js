@@ -12,7 +12,9 @@ const SERVICES_OBJ = {
 };
 
 // Robust template functions (always accept full collected object)
-const LEAD_TEMPLATE = (collected) => {
+
+// Both templates now accept (collected, user)
+const LEAD_TEMPLATE = (collected, user) => {
   const { name, phone, service, message, ...rest } = collected || {};
   let msg = `Лид с сайта:\n`;
   if (name) msg += `Имя: ${name}\n`;
@@ -22,20 +24,34 @@ const LEAD_TEMPLATE = (collected) => {
   Object.entries(rest).forEach(([k, v]) => {
     msg += `${k}: ${v}\n`;
   });
+  if (user && (user.username || user.first_name)) {
+    let sender = 'Отправитель:';
+    if (user.first_name) sender += ` ${user.first_name}`;
+    if (user.last_name) sender += ` ${user.last_name}`;
+    if (user.username) sender += ` (@${user.username})`;
+    msg += `\n${sender}`;
+  }
   return msg.trim();
 };
 
-const MSG_TEMPLATE = (collected) => {
-  const { service, budget, district, name, phone, ...rest } = collected || {};
+const MSG_TEMPLATE = (collected, user) => {
+  const { service, budget, district, name, message, ...rest } = collected || {};
   let msg = 'Лид из бота:\n';
   if (service) msg += `Услуга: ${service}\n`;
   if (budget) msg += `Бюджет: ${budget}\n`;
   if (district) msg += `Район: ${district}\n`;
   if (name) msg += `Имя: ${name}\n`;
-  if (phone) msg += `Телефон: ${phone}\n`;
+  if (message) msg += `Сообщение: ${message}\n`;
   Object.entries(rest).forEach(([k, v]) => {
     msg += `${k}: ${v}\n`;
   });
+  if (user && (user.username || user.first_name)) {
+    let sender = 'Отправитель:';
+    if (user.first_name) sender += ` ${user.first_name}`;
+    if (user.last_name) sender += ` ${user.last_name}`;
+    if (user.username) sender += ` (@${user.username})`;
+    msg += `\n${sender}`;
+  }
   return msg.trim();
 };
 
@@ -55,13 +71,13 @@ module.exports = {
     budget: 'Пожалуйста, укажите ваш бюджет:',
     district: 'Пожалуйста, укажите интересующий район:',
     name: 'Пожалуйста, напишите ваше имя:',
-    phone: 'Пожалуйста, напишите ваш номер телефона:'
+    message: 'Опишите вашу просьбу:'
   },
 
   // Step flows reference step keys from STEP_DEFS to avoid duplication
   STEP_FLOWS: {
-    property: ['budget', 'district', 'name', 'phone'],
-    simple: ['name', 'phone']
+    property: ['budget', 'district', 'name', 'message'],
+    simple: ['name', 'message']
   },
 
   SERVICE_FLOW_MAP: {

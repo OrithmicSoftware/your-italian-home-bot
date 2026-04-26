@@ -9,4 +9,22 @@ describe('Config template interface', () => {
     expect(typeof config.LEAD_TEMPLATE(collected)).toBe('string');
     expect(typeof config.MSG_TEMPLATE(collected)).toBe('string');
   });
+
+  it('MSG_TEMPLATE should include message field in output', () => {
+    const collected = {
+      service: 'buy',
+      budget: '100000',
+      district: 'Центр',
+      name: 'Иван',
+      phone: '+79991234567',
+      message: 'Хочу купить квартиру',
+    };
+    const output = config.MSG_TEMPLATE(collected);
+    expect(output).toMatch(/Сообщение: Хочу купить квартиру/);
+    expect(output).toMatch(/Услуга: buy/);
+    expect(output).toMatch(/Бюджет: 100000/);
+    expect(output).toMatch(/Район: Центр/);
+    expect(output).toMatch(/Имя: Иван/);
+    expect(output).toMatch(/phone: \+79991234567/);
+  });
 });
