@@ -1,4 +1,13 @@
 require('dotenv').config();
+// Field labels for all possible fields
+const FIELD_LABELS = {
+  name: 'Имя',
+  phone: 'Телефон',
+  service: 'Услуга',
+  budget: 'Бюджет',
+  district: 'Район',
+  message: 'Сообщение'
+};
 // Centralized config and strings for your-italian-home-bot
 
 // Service definitions (shared locally so templates can reference safely)
@@ -15,14 +24,19 @@ const SERVICES_OBJ = {
 
 // Both templates now accept (collected, user)
 const LEAD_TEMPLATE = (collected, user) => {
-  const { name, phone, service, message, ...rest } = collected || {};
+  const allFields = { ...collected };
   let msg = `Лид с сайта:\n`;
-  if (name) msg += `Имя: ${name}\n`;
-  if (service) msg += `Услуга: ${service}\n`;
-  if (phone) msg += `Телефон: ${phone}\n`;
-  if (message) msg += `Сообщение: ${message}\n`;
-  Object.entries(rest).forEach(([k, v]) => {
-    msg += `${k}: ${v}\n`;
+  for (const k of Object.keys(FIELD_LABELS)) {
+    if (k === 'service' && allFields[k]) {
+      msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
+    } else if (allFields[k]) {
+      msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
+    }
+    delete allFields[k];
+  }
+  // Any extra fields
+  Object.entries(allFields).forEach(([k, v]) => {
+    msg += `${FIELD_LABELS[k] || k}: ${v}\n`;
   });
   if (user && (user.username || user.first_name)) {
     let sender = 'Отправитель:';
@@ -35,15 +49,19 @@ const LEAD_TEMPLATE = (collected, user) => {
 };
 
 const MSG_TEMPLATE = (collected, user) => {
-  const { service, budget, district, name, message, ...rest } = collected || {};
+  const allFields = { ...collected };
   let msg = 'Лид из бота:\n';
-  if (service) msg += `Услуга: ${service}\n`;
-  if (budget) msg += `Бюджет: ${budget}\n`;
-  if (district) msg += `Район: ${district}\n`;
-  if (name) msg += `Имя: ${name}\n`;
-  if (message) msg += `Сообщение: ${message}\n`;
-  Object.entries(rest).forEach(([k, v]) => {
-    msg += `${k}: ${v}\n`;
+  for (const k of Object.keys(FIELD_LABELS)) {
+    if (k === 'service' && allFields[k]) {
+      msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
+    } else if (allFields[k]) {
+      msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
+    }
+    delete allFields[k];
+  }
+  // Any extra fields
+  Object.entries(allFields).forEach(([k, v]) => {
+    msg += `${FIELD_LABELS[k] || k}: ${v}\n`;
   });
   if (user && (user.username || user.first_name)) {
     let sender = 'Отправитель:';
@@ -94,21 +112,29 @@ module.exports = {
   SERVICES: SERVICES_OBJ,
 
   // Robust template functions (top-level)
+  FIELD_LABELS,
   LEAD_TEMPLATE,
   MSG_TEMPLATE,
 
-  // UI Strings
+  // UI Strings (only Russian/custom overrides)
   STRINGS: {
+    // Inline callback/followup/approval/decline/unknown action messages (Russian)
+    NO_FORWARD_CB: 'Заявка отклонена.',
+    NO_FORWARD_FOLLOWUP: 'Заявка была отклонена и не будет отправлена агенту. Проверьте правильность введённых данных и попробуйте снова. Чтобы начать заново, отправьте /start.',
+    FORWARD_CB: 'Заявка отправлена агенту.',
+    FORWARD_FOLLOWUP: 'Заявка успешно отправлена агенту.',
+    APPROVED_CB: 'Одобрено.',
+    REJECTED_CB: 'Отклонено.',
+    UNKNOWN_CB: 'Неизвестное действие.',
     WELCOME: 'Здравствуйте! Я Людмила, сертифицированный риэлтор и бухгалтер (Пьемонте, Лигурия). Живу в Турине 8+ лет. Помогаю с покупкой, арендой, налогами, оформлением документов и сопровождением сделок.\n\nПожалуйста, напишите: имя, бюджет и район, чтобы я могла вам помочь.\n\nℹ️ Используйте меню внизу для быстрого выбора.',
     APPROVE_BTN: '✅ Одобрить и отправить агенту',
     REJECT_BTN: '❌ Отклонить',
-    FORWARD_PROMPT: 'Forward this to agent?',
-    FORWARD_BTN: '➡️ Forward to Agent',
-    NO_FORWARD_BTN: '🚫 Do Not Forward',
     WAITING_FORWARD_CONFIRM: 'Ожидает подтверждения для отправки агенту.',
     CHOOSE_SERVICE: 'Пожалуйста, выберите интересующую услугу из меню ниже:',
     CONTACT_PROMPT: 'Пожалуйста, напишите ваше имя, бюджет и интересующий район. Я свяжусь с вами в ближайшее время!',
-    INVALID_SERVICE: 'Пожалуйста, выберите услугу из списка.'
+    INVALID_SERVICE: 'Пожалуйста, выберите услугу из списка.',
+    LEAD_SENT: 'Ваша заявка отправлена администратору на рассмотрение.',
+    MSG_SENT: 'Ваше сообщение отправлено администратору.'
   },
 
   BUTTONS: {

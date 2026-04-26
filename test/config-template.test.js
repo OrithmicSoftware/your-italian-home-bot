@@ -21,10 +21,10 @@ describe('Config template interface', () => {
     };
     const output = config.MSG_TEMPLATE(collected);
     expect(output).toMatch(/Сообщение: Хочу купить квартиру/);
-    expect(output).toMatch(/Услуга: buy/);
+    expect(output).toMatch(/Услуга: 🏠 Покупка недвижимости/);
     expect(output).toMatch(/Бюджет: 100000/);
     expect(output).toMatch(/Район: Центр/);
     expect(output).toMatch(/Имя: Иван/);
-    expect(output).toMatch(/phone: \+79991234567/);
+    expect(output).toMatch(/Телефон: \+79991234567/);
   });
 });

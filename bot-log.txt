@@ -520,3 +520,263 @@
 [2026-04-24T18:53:20.114Z] Web server listening on port 3000
 [2026-04-26T05:56:10.522Z] Web server listening on port 3999
 [2026-04-26T05:57:13.178Z] Web server listening on port 3999
+[2026-04-26T06:02:43.876Z] Web server listening on port 3999
+[2026-04-26T15:21:33.209Z] Web server listening on port 3999
+[2026-04-26T15:24:23.957Z] [comm-agent] createCommAgent called
+[2026-04-26T15:24:23.958Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T15:24:23.959Z] [comm-agent] Bot instance created
+[2026-04-26T15:24:23.965Z] Bot and web lead server started.
+[2026-04-26T15:24:23.966Z] Bot and web lead server started.
+[2026-04-26T15:24:23.967Z] Web server listening on port 3000
+[2026-04-26T15:24:23.968Z] Web server listening on port 3000
+[2026-04-26T15:24:41.836Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:41.836Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:41.837Z] [comm-agent] /start received from 544729737
+[2026-04-26T15:24:41.838Z] [comm-agent] /start received from 544729737
+[2026-04-26T15:24:44.204Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:44.204Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:44.205Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T15:24:44.205Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T15:24:45.789Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:45.790Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:45.791Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-26T15:24:45.791Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-26T15:24:45.792Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-26T15:24:45.792Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-26T15:24:47.982Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:47.982Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:47.983Z] [comm-agent] message event from 544729737 text: Ghj
+[2026-04-26T15:24:47.983Z] [comm-agent] message event from 544729737 text: Ghj
+[2026-04-26T15:24:47.983Z] [comm-agent] processMessage from 544729737 text: Ghj
+[2026-04-26T15:24:47.984Z] [comm-agent] processMessage from 544729737 text: Ghj
+[2026-04-26T15:24:50.753Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:50.754Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T15:24:50.754Z] [comm-agent] message event from 544729737 text: Fhjkcft
+[2026-04-26T15:24:50.754Z] [comm-agent] message event from 544729737 text: Fhjkcft
+[2026-04-26T15:24:50.755Z] [comm-agent] processMessage from 544729737 text: Fhjkcft
+[2026-04-26T15:24:50.755Z] [comm-agent] processMessage from 544729737 text: Fhjkcft
+[2026-04-26T15:52:33.786Z] [comm-agent] createCommAgent called
+[2026-04-26T15:52:33.787Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T15:52:33.791Z] [comm-agent] Bot instance created
+[2026-04-26T15:52:33.798Z] Bot and web lead server started.
+[2026-04-26T15:52:33.798Z] Bot and web lead server started.
+[2026-04-26T15:52:33.799Z] Web server listening on port 3000
+[2026-04-26T15:52:33.800Z] Web server listening on port 3000
+[2026-04-26T18:02:23.902Z] [comm-agent] createCommAgent called
+[2026-04-26T18:02:23.903Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:02:23.905Z] [comm-agent] Bot instance created
+[2026-04-26T18:02:23.910Z] Bot and web lead server started.
+[2026-04-26T18:02:23.911Z] Bot and web lead server started.
+[2026-04-26T18:02:23.912Z] Web server listening on port 3000
+[2026-04-26T18:02:23.912Z] Web server listening on port 3000
+[2026-04-26T18:02:53.791Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:02:53.792Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:02:53.793Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:02:53.793Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:03:01.355Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:01.356Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:01.357Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:03:01.357Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:03:04.517Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:04.518Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:04.519Z] [comm-agent] message event from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-26T18:03:04.519Z] [comm-agent] message event from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-26T18:03:04.520Z] [comm-agent] processMessage from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-26T18:03:04.520Z] [comm-agent] processMessage from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-26T18:03:12.755Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:12.756Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:12.756Z] [comm-agent] message event from 544729737 text: Lakh
+[2026-04-26T18:03:12.756Z] [comm-agent] message event from 544729737 text: Lakh
+[2026-04-26T18:03:12.757Z] [comm-agent] processMessage from 544729737 text: Lakh
+[2026-04-26T18:03:12.757Z] [comm-agent] processMessage from 544729737 text: Lakh
+[2026-04-26T18:03:16.058Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:16.059Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:03:16.059Z] [comm-agent] message event from 544729737 text: Jebd sneu
+[2026-04-26T18:03:16.059Z] [comm-agent] message event from 544729737 text: Jebd sneu
+[2026-04-26T18:03:16.060Z] [comm-agent] processMessage from 544729737 text: Jebd sneu
+[2026-04-26T18:03:16.060Z] [comm-agent] processMessage from 544729737 text: Jebd sneu
+[2026-04-26T18:16:42.485Z] [comm-agent] createCommAgent called
+[2026-04-26T18:16:42.487Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:16:42.488Z] [comm-agent] Bot instance created
+[2026-04-26T18:16:42.492Z] Bot and web lead server started.
+[2026-04-26T18:16:42.493Z] Bot and web lead server started.
+[2026-04-26T18:16:42.494Z] Web server listening on port 3000
+[2026-04-26T18:16:42.494Z] Web server listening on port 3000
+[2026-04-26T18:16:49.908Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:49.908Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:49.909Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:16:49.910Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:16:55.075Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:55.075Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:55.076Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:16:55.076Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:16:58.224Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:58.224Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:16:58.225Z] [comm-agent] message event from 544729737 text: 🏡 Аренда недвижимости
+[2026-04-26T18:16:58.225Z] [comm-agent] message event from 544729737 text: 🏡 Аренда недвижимости
+[2026-04-26T18:16:58.226Z] [comm-agent] processMessage from 544729737 text: 🏡 Аренда недвижимости
+[2026-04-26T18:16:58.227Z] [comm-agent] processMessage from 544729737 text: 🏡 Аренда недвижимости
+[2026-04-26T18:17:00.602Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:00.602Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:00.603Z] [comm-agent] message event from 544729737 text: G
+[2026-04-26T18:17:00.603Z] [comm-agent] message event from 544729737 text: G
+[2026-04-26T18:17:00.603Z] [comm-agent] processMessage from 544729737 text: G
+[2026-04-26T18:17:00.604Z] [comm-agent] processMessage from 544729737 text: G
+[2026-04-26T18:17:04.262Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:04.262Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:04.263Z] [comm-agent] message event from 544729737 text: Fgh
+[2026-04-26T18:17:04.263Z] [comm-agent] message event from 544729737 text: Fgh
+[2026-04-26T18:17:04.263Z] [comm-agent] processMessage from 544729737 text: Fgh
+[2026-04-26T18:17:04.264Z] [comm-agent] processMessage from 544729737 text: Fgh
+[2026-04-26T18:17:07.506Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:07.507Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:07.507Z] [comm-agent] message event from 544729737 text: Yfsx
+[2026-04-26T18:17:07.508Z] [comm-agent] message event from 544729737 text: Yfsx
+[2026-04-26T18:17:07.508Z] [comm-agent] processMessage from 544729737 text: Yfsx
+[2026-04-26T18:17:07.508Z] [comm-agent] processMessage from 544729737 text: Yfsx
+[2026-04-26T18:17:10.482Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:10.482Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:17:10.483Z] [comm-agent] message event from 544729737 text: Gfrrc
+[2026-04-26T18:17:10.483Z] [comm-agent] message event from 544729737 text: Gfrrc
+[2026-04-26T18:17:10.484Z] [comm-agent] processMessage from 544729737 text: Gfrrc
+[2026-04-26T18:17:10.484Z] [comm-agent] processMessage from 544729737 text: Gfrrc
+[2026-04-26T18:18:30.397Z] [comm-agent] createCommAgent called
+[2026-04-26T18:18:30.398Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:18:30.400Z] [comm-agent] Bot instance created
+[2026-04-26T18:18:30.407Z] Bot and web lead server started.
+[2026-04-26T18:18:30.407Z] Bot and web lead server started.
+[2026-04-26T18:18:30.409Z] Web server listening on port 3000
+[2026-04-26T18:18:30.409Z] Web server listening on port 3000
+[2026-04-26T18:20:54.228Z] [comm-agent] createCommAgent called
+[2026-04-26T18:20:54.229Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:20:54.231Z] [comm-agent] Bot instance created
+[2026-04-26T18:20:54.237Z] Bot and web lead server started.
+[2026-04-26T18:20:54.238Z] Bot and web lead server started.
+[2026-04-26T18:20:54.239Z] Web server listening on port 3000
+[2026-04-26T18:20:54.240Z] Web server listening on port 3000
+[2026-04-26T18:21:06.749Z] [comm-agent] createCommAgent called
+[2026-04-26T18:21:06.750Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:21:06.752Z] [comm-agent] Bot instance created
+[2026-04-26T18:21:06.756Z] Bot and web lead server started.
+[2026-04-26T18:21:06.757Z] Bot and web lead server started.
+[2026-04-26T18:21:06.758Z] Web server listening on port 3000
+[2026-04-26T18:21:06.758Z] Web server listening on port 3000
+[2026-04-26T18:21:20.983Z] [comm-agent] createCommAgent called
+[2026-04-26T18:21:20.984Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:21:20.985Z] [comm-agent] Bot instance created
+[2026-04-26T18:21:20.989Z] Bot and web lead server started.
+[2026-04-26T18:21:20.990Z] Bot and web lead server started.
+[2026-04-26T18:21:20.991Z] Web server listening on port 3000
+[2026-04-26T18:21:20.991Z] Web server listening on port 3000
+[2026-04-26T18:21:30.924Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:30.924Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:30.925Z] [comm-agent] message event from 544729737 text: /login
+[2026-04-26T18:21:30.926Z] [comm-agent] message event from 544729737 text: /login
+[2026-04-26T18:21:30.927Z] [comm-agent] processMessage from 544729737 text: /login
+[2026-04-26T18:21:30.927Z] [comm-agent] processMessage from 544729737 text: /login
+[2026-04-26T18:21:30.927Z] [comm-agent] Fallback message from 544729737 text: /login
+[2026-04-26T18:21:30.928Z] [comm-agent] Fallback message from 544729737 text: /login
+[2026-04-26T18:21:43.528Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:43.528Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:43.529Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:21:43.529Z] [comm-agent] /start received from 544729737
+[2026-04-26T18:21:46.129Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:46.129Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:46.130Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:21:46.131Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T18:21:47.801Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:47.802Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:47.802Z] [comm-agent] message event from 544729737 text: 🤝 Сопровождение сделок
+[2026-04-26T18:21:47.803Z] [comm-agent] message event from 544729737 text: 🤝 Сопровождение сделок
+[2026-04-26T18:21:47.803Z] [comm-agent] processMessage from 544729737 text: 🤝 Сопровождение сделок
+[2026-04-26T18:21:47.803Z] [comm-agent] processMessage from 544729737 text: 🤝 Сопровождение сделок
+[2026-04-26T18:21:49.838Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:49.838Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:49.839Z] [comm-agent] message event from 544729737 text: Hj
+[2026-04-26T18:21:49.839Z] [comm-agent] message event from 544729737 text: Hj
+[2026-04-26T18:21:49.840Z] [comm-agent] processMessage from 544729737 text: Hj
+[2026-04-26T18:21:49.840Z] [comm-agent] processMessage from 544729737 text: Hj
+[2026-04-26T18:21:51.880Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:51.881Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:51.881Z] [comm-agent] message event from 544729737 text: Fhj
+[2026-04-26T18:21:51.881Z] [comm-agent] message event from 544729737 text: Fhj
+[2026-04-26T18:21:51.882Z] [comm-agent] processMessage from 544729737 text: Fhj
+[2026-04-26T18:21:51.882Z] [comm-agent] processMessage from 544729737 text: Fhj
+[2026-04-26T18:21:58.058Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:58.059Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T18:21:58.059Z] [comm-agent] callback_query: no_forward_lead:web:yntnkomp
+[2026-04-26T18:21:58.060Z] [comm-agent] callback_query: no_forward_lead:web:yntnkomp
+[2026-04-26T18:55:19.364Z] [comm-agent] createCommAgent called
+[2026-04-26T18:55:19.366Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:55:19.370Z] [comm-agent] Bot instance created
+[2026-04-26T18:55:19.377Z] Bot and web lead server started.
+[2026-04-26T18:55:19.378Z] Bot and web lead server started.
+[2026-04-26T18:55:19.380Z] Web server listening on port 3000
+[2026-04-26T18:55:19.380Z] Web server listening on port 3000
+[2026-04-26T18:57:23.747Z] [comm-agent] createCommAgent called
+[2026-04-26T18:57:23.748Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T18:57:23.750Z] [comm-agent] Bot instance created
+[2026-04-26T18:57:23.754Z] Bot and web lead server started.
+[2026-04-26T18:57:23.754Z] Bot and web lead server started.
+[2026-04-26T18:57:23.755Z] Web server listening on port 3000
+[2026-04-26T18:57:23.756Z] Web server listening on port 3000
+[2026-04-26T19:01:05.721Z] [comm-agent] createCommAgent called
+[2026-04-26T19:01:05.722Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T19:01:05.724Z] [comm-agent] Bot instance created
+[2026-04-26T19:01:05.729Z] Bot and web lead server started.
+[2026-04-26T19:01:05.729Z] Bot and web lead server started.
+[2026-04-26T19:01:05.730Z] Web server listening on port 3000
+[2026-04-26T19:01:05.731Z] Web server listening on port 3000
+[2026-04-26T19:01:14.601Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:14.602Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:14.604Z] [comm-agent] /start received from 544729737
+[2026-04-26T19:01:14.604Z] [comm-agent] /start received from 544729737
+[2026-04-26T19:01:16.264Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:16.265Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:16.266Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T19:01:16.266Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-26T19:01:17.579Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:17.580Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:17.580Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-26T19:01:17.581Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-26T19:01:17.582Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-26T19:01:17.582Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-26T19:01:19.659Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:19.659Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:19.660Z] [comm-agent] message event from 544729737 text: Dvah
+[2026-04-26T19:01:19.660Z] [comm-agent] message event from 544729737 text: Dvah
+[2026-04-26T19:01:19.661Z] [comm-agent] processMessage from 544729737 text: Dvah
+[2026-04-26T19:01:19.661Z] [comm-agent] processMessage from 544729737 text: Dvah
+[2026-04-26T19:01:21.236Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:21.236Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:21.237Z] [comm-agent] message event from 544729737 text: Vhsj
+[2026-04-26T19:01:21.237Z] [comm-agent] message event from 544729737 text: Vhsj
+[2026-04-26T19:01:21.237Z] [comm-agent] processMessage from 544729737 text: Vhsj
+[2026-04-26T19:01:21.237Z] [comm-agent] processMessage from 544729737 text: Vhsj
+[2026-04-26T19:01:24.133Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:24.133Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-26T19:01:24.134Z] [comm-agent] callback_query: no_forward_lead:web:syupa6u6
+[2026-04-26T19:01:24.134Z] [comm-agent] callback_query: no_forward_lead:web:syupa6u6
+[2026-04-26T19:03:19.188Z] [comm-agent] createCommAgent called
+[2026-04-26T19:03:19.189Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T19:03:19.191Z] [comm-agent] Bot instance created
+[2026-04-26T19:03:19.196Z] Bot and web lead server started.
+[2026-04-26T19:03:19.197Z] Bot and web lead server started.
+[2026-04-26T19:03:19.198Z] Web server listening on port 3000
+[2026-04-26T19:03:19.198Z] Web server listening on port 3000
+[2026-04-26T19:14:01.805Z] [comm-agent] createCommAgent called
+[2026-04-26T19:14:01.808Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T19:14:01.812Z] [comm-agent] Bot instance created
+[2026-04-26T19:14:01.819Z] Bot and web lead server started.
+[2026-04-26T19:14:01.820Z] Bot and web lead server started.
+[2026-04-26T19:14:01.822Z] Web server listening on port 3000
+[2026-04-26T19:14:01.822Z] Web server listening on port 3000
+[2026-04-26T19:15:17.041Z] [comm-agent] createCommAgent called
+[2026-04-26T19:15:17.043Z] [comm-agent] Initializing Telegraf bot
+[2026-04-26T19:15:17.045Z] [comm-agent] Bot instance created
+[2026-04-26T19:15:17.053Z] Bot and web lead server started.
+[2026-04-26T19:15:17.054Z] Bot and web lead server started.
+[2026-04-26T19:15:17.055Z] Web server listening on port 3000
+[2026-04-26T19:15:17.056Z] Web server listening on port 3000
+[2026-04-26T19:15:17.703Z] Web server listening on port 3999
+[2026-04-26T19:16:16.359Z] Web server listening on port 3999
