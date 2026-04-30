@@ -1004,3 +1004,6 @@
 [2026-04-30T17:57:16.632Z] [comm-agent] createCommAgent called
 [2026-04-30T17:57:16.635Z] [comm-agent] Initializing Telegraf bot
 [2026-04-30T17:57:16.637Z] [comm-agent] Bot instance created
+[2026-04-30T17:57:26.164Z] [comm-agent] createCommAgent called
+[2026-04-30T17:57:26.167Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:57:26.170Z] [comm-agent] Bot instance created
