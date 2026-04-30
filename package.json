@@ -9,8 +9,7 @@
     "test": "jest",
     "lint": "eslint . --format unix",
     "validate": "node scripts/validate-env.js",
-    "postinstall": "npm run validate",
-    "update-agent-bundle": "node ./scripts/update-agent-bundle.js"
+    "postinstall": "npm run validate"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
