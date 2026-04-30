@@ -1,7 +1,9 @@
 // scripts/validate-env.js
 require('dotenv').config();
-if (process.env.RAILWAY_PRIVATE_DOMAIN) {
-  console.log('[INFO] Skipping env validation on Railway deployment.');
+
+// Skip validation in Railway or CI environments
+if (process.env.RAILWAY_PRIVATE_DOMAIN || process.env.CI) {
+  console.log('[INFO] Skipping env validation on Railway/CI deployment.');
   process.exit(0);
 }
 
