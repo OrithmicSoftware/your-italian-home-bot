@@ -4,10 +4,10 @@ const config = require('../settings/config');
 describe('Config template interface', () => {
   it('LEAD_TEMPLATE and MSG_TEMPLATE should accept any collected object', () => {
     const collected = { name: 'Test', phone: '123', foo: 'bar', extra: 42 };
-    expect(() => config.LEAD_TEMPLATE(collected)).not.toThrow();
-    expect(() => config.MSG_TEMPLATE(collected)).not.toThrow();
-    expect(typeof config.LEAD_TEMPLATE(collected)).toBe('string');
-    expect(typeof config.MSG_TEMPLATE(collected)).toBe('string');
+    expect(() => config.STRINGS.LEAD_TEMPLATE(collected)).not.toThrow();
+    expect(() => config.STRINGS.MSG_TEMPLATE(collected)).not.toThrow();
+    expect(typeof config.STRINGS.LEAD_TEMPLATE(collected)).toBe('string');
+    expect(typeof config.STRINGS.MSG_TEMPLATE(collected)).toBe('string');
   });
 
   it('MSG_TEMPLATE should include message field in output', () => {
@@ -19,7 +19,7 @@ describe('Config template interface', () => {
       phone: '+79991234567',
       message: 'Хочу купить квартиру',
     };
-    const output = config.MSG_TEMPLATE(collected);
+    const output = config.STRINGS.MSG_TEMPLATE(collected);
     expect(output).toMatch(/Сообщение: Хочу купить квартиру/);
     expect(output).toMatch(/Услуга: 🏠 Покупка недвижимости/);
     expect(output).toMatch(/Бюджет: 100000/);

@@ -780,3 +780,227 @@
 [2026-04-26T19:15:17.056Z] Web server listening on port 3000
 [2026-04-26T19:15:17.703Z] Web server listening on port 3999
 [2026-04-26T19:16:16.359Z] Web server listening on port 3999
+[2026-04-26T19:16:27.160Z] Web server listening on port 3999
+[2026-04-28T08:11:35.061Z] [comm-agent] createCommAgent called
+[2026-04-28T08:11:35.063Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:11:35.065Z] [comm-agent] Bot instance created
+[2026-04-28T08:11:35.251Z] [comm-agent] createCommAgent called
+[2026-04-28T08:11:35.253Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:11:35.254Z] [comm-agent] Bot instance created
+[2026-04-28T08:39:33.670Z] [comm-agent] createCommAgent called
+[2026-04-28T08:39:33.673Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:39:33.674Z] [comm-agent] Bot instance created
+[2026-04-28T08:39:33.903Z] [comm-agent] createCommAgent called
+[2026-04-28T08:39:33.905Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:39:33.907Z] [comm-agent] Bot instance created
+[2026-04-28T08:43:02.592Z] [comm-agent] createCommAgent called
+[2026-04-28T08:43:02.594Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:43:02.596Z] [comm-agent] Bot instance created
+[2026-04-28T08:43:14.482Z] [comm-agent] createCommAgent called
+[2026-04-28T08:43:14.484Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:43:14.486Z] [comm-agent] Bot instance created
+[2026-04-28T08:56:55.607Z] [comm-agent] createCommAgent called
+[2026-04-28T08:56:55.608Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T08:56:55.609Z] [comm-agent] Bot instance created
+[2026-04-28T08:57:27.130Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:27.132Z] [comm-agent] /start received from 544729737
+[2026-04-28T08:57:29.142Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:29.144Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-28T08:57:30.483Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:30.484Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-28T08:57:30.485Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-28T08:57:35.639Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:35.640Z] [comm-agent] message event from 544729737 text: 20000
+[2026-04-28T08:57:35.641Z] [comm-agent] processMessage from 544729737 text: 20000
+[2026-04-28T08:57:44.062Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:44.063Z] [comm-agent] message event from 544729737 text: Aurora
+[2026-04-28T08:57:44.064Z] [comm-agent] processMessage from 544729737 text: Aurora
+[2026-04-28T08:57:47.532Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:57:47.533Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-28T08:57:47.534Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-28T08:58:04.466Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T08:58:04.467Z] [comm-agent] message event from 544729737 text: Денег нет, что мне делать
+[2026-04-28T08:58:04.468Z] [comm-agent] processMessage from 544729737 text: Денег нет, что мне делать
+[2026-04-28T08:58:04.469Z] [ERROR] [comm-agent] Error in message handler: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function
+[2026-04-28T08:58:04.470Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-28T08:58:04.471Z] [ERROR] [comm-agent] Error in handleUpdate: TypeError: config.STRINGS.LEAD_TEMPLATE is not a function [object Object]
+[2026-04-28T09:00:03.343Z] [comm-agent] createCommAgent called
+[2026-04-28T09:00:03.345Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:00:03.346Z] [comm-agent] Bot instance created
+[2026-04-28T09:00:14.781Z] [comm-agent] createCommAgent called
+[2026-04-28T09:00:14.782Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:00:14.784Z] [comm-agent] Bot instance created
+[2026-04-28T09:03:00.586Z] [comm-agent] createCommAgent called
+[2026-04-28T09:03:00.588Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:03:00.589Z] [comm-agent] Bot instance created
+[2026-04-28T09:03:49.405Z] [comm-agent] createCommAgent called
+[2026-04-28T09:03:49.406Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:03:49.407Z] [comm-agent] Bot instance created
+[2026-04-28T09:03:54.576Z] [comm-agent] createCommAgent called
+[2026-04-28T09:03:54.578Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:03:54.581Z] [comm-agent] Bot instance created
+[2026-04-28T09:07:03.764Z] [comm-agent] createCommAgent called
+[2026-04-28T09:07:03.766Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:07:03.767Z] [comm-agent] Bot instance created
+[2026-04-28T09:07:12.196Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:12.198Z] [comm-agent] /start received from 544729737
+[2026-04-28T09:07:13.935Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:13.936Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-28T09:07:15.515Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:15.516Z] [comm-agent] message event from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-28T09:07:15.517Z] [comm-agent] processMessage from 544729737 text: 🏠 Покупка недвижимости
+[2026-04-28T09:07:18.929Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:18.929Z] [comm-agent] message event from 544729737 text: 10000
+[2026-04-28T09:07:18.930Z] [comm-agent] processMessage from 544729737 text: 10000
+[2026-04-28T09:07:22.466Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:22.467Z] [comm-agent] message event from 544729737 text: Aurora
+[2026-04-28T09:07:22.467Z] [comm-agent] processMessage from 544729737 text: Aurora
+[2026-04-28T09:07:25.230Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:25.231Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-28T09:07:25.232Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-28T09:07:35.054Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T09:07:35.055Z] [comm-agent] message event from 544729737 text: Денег нет, как купить
+[2026-04-28T09:07:35.056Z] [comm-agent] processMessage from 544729737 text: Денег нет, как купить
+[2026-04-28T09:07:35.149Z] [ERROR] [comm-agent] Error in message handler: Error: 400: Bad Request: can't parse inline keyboard button: Can't find field "text"
+[2026-04-28T09:07:35.150Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-28T09:07:35.151Z] [ERROR] [comm-agent] Error in handleUpdate: Error: 400: Bad Request: can't parse inline keyboard button: Can't find field "text" [object Object]
+[2026-04-28T09:08:51.390Z] [comm-agent] createCommAgent called
+[2026-04-28T09:08:51.392Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T09:08:51.393Z] [comm-agent] Bot instance created
+[2026-04-28T10:36:32.588Z] [comm-agent] createCommAgent called
+[2026-04-28T10:36:32.589Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T10:36:32.592Z] [comm-agent] Bot instance created
+[2026-04-28T10:39:24.110Z] [comm-agent] createCommAgent called
+[2026-04-28T10:39:24.111Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T10:39:24.113Z] [comm-agent] Bot instance created
+[2026-04-28T10:39:39.436Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T10:39:39.437Z] [comm-agent] /start received from 544729737
+[2026-04-28T10:39:41.697Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T10:39:41.698Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-28T10:39:43.032Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T10:39:43.033Z] [comm-agent] message event from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-28T10:39:43.034Z] [comm-agent] processMessage from 544729737 text: 💶 Налоги и бухгалтерия
+[2026-04-28T10:39:45.855Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T10:39:45.856Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-28T10:39:45.856Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-28T10:39:53.470Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-28T10:39:53.471Z] [comm-agent] message event from 544729737 text: IMU
+[2026-04-28T10:39:53.472Z] [comm-agent] processMessage from 544729737 text: IMU
+[2026-04-28T10:39:53.562Z] [ERROR] [comm-agent] Error in message handler: Error: 400: Bad Request: BUTTON_DATA_INVALID
+[2026-04-28T10:39:53.563Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-28T10:39:53.563Z] [ERROR] [comm-agent] Error in handleUpdate: Error: 400: Bad Request: BUTTON_DATA_INVALID [object Object]
+[2026-04-28T10:53:44.995Z] [comm-agent] createCommAgent called
+[2026-04-28T10:53:44.998Z] [comm-agent] Initializing Telegraf bot
+[2026-04-28T10:53:45.001Z] [comm-agent] Bot instance created
+[2026-04-29T10:18:53.804Z] [comm-agent] createCommAgent called
+[2026-04-29T10:18:53.805Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T10:18:53.807Z] [comm-agent] Bot instance created
+[2026-04-29T10:34:43.555Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T10:34:43.556Z] [comm-agent] /start received from 544729737
+[2026-04-29T10:34:45.613Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T10:34:45.614Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-29T10:34:47.129Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T10:34:47.130Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-29T10:34:47.131Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-29T10:34:50.727Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T10:34:50.728Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-29T10:34:50.729Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-29T10:34:55.064Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T10:34:55.072Z] [comm-agent] message event from 544729737 text: IMU
+[2026-04-29T10:34:55.075Z] [comm-agent] processMessage from 544729737 text: IMU
+[2026-04-29T10:34:55.153Z] [ERROR] [comm-agent] Error in message handler: Error: 400: Bad Request: BUTTON_DATA_INVALID
+[2026-04-29T10:34:55.154Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-29T10:34:55.156Z] [ERROR] [comm-agent] Error in handleUpdate: Error: 400: Bad Request: BUTTON_DATA_INVALID [object Object]
+[2026-04-29T10:34:59.348Z] [comm-agent] createCommAgent called
+[2026-04-29T10:34:59.350Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T10:34:59.352Z] [comm-agent] Bot instance created
+[2026-04-29T10:35:15.436Z] [comm-agent] createCommAgent called
+[2026-04-29T10:35:15.437Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T10:35:15.439Z] [comm-agent] Bot instance created
+[2026-04-29T10:35:58.204Z] [comm-agent] createCommAgent called
+[2026-04-29T10:35:58.206Z] [ERROR] [comm-agent] Missing required secrets: [object Object]
+[2026-04-29T12:49:35.583Z] [comm-agent] createCommAgent called
+[2026-04-29T12:49:35.590Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T12:49:35.593Z] [comm-agent] Bot instance created
+[2026-04-29T13:00:02.193Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T13:00:02.195Z] [comm-agent] /start received from 544729737
+[2026-04-29T13:00:03.972Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T13:00:03.973Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-29T13:00:05.105Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T13:00:05.107Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-29T13:00:05.108Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-29T13:00:08.034Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T13:00:08.035Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-29T13:00:08.035Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-29T13:00:10.725Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-29T13:00:10.726Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-29T13:00:10.727Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-29T13:00:10.830Z] [ERROR] [comm-agent] Error in message handler: Error: 400: Bad Request: BUTTON_DATA_INVALID
+[2026-04-29T13:00:10.831Z] [ERROR] Unhandled error while processing [object Object]
+[2026-04-29T13:00:10.831Z] [ERROR] [comm-agent] Error in handleUpdate: Error: 400: Bad Request: BUTTON_DATA_INVALID [object Object]
+[2026-04-29T13:08:16.337Z] [comm-agent] createCommAgent called
+[2026-04-29T13:08:16.345Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:08:16.353Z] [comm-agent] Bot instance created
+[2026-04-29T13:08:16.722Z] [comm-agent] createCommAgent called
+[2026-04-29T13:08:16.724Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:08:16.727Z] [comm-agent] Bot instance created
+[2026-04-29T13:17:40.964Z] [comm-agent] createCommAgent called
+[2026-04-29T13:17:40.967Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:17:40.969Z] [comm-agent] Bot instance created
+[2026-04-29T13:18:10.435Z] [comm-agent] createCommAgent called
+[2026-04-29T13:18:10.437Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:18:10.441Z] [comm-agent] Bot instance created
+[2026-04-29T13:18:13.110Z] [comm-agent] createCommAgent called
+[2026-04-29T13:18:13.113Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:18:13.117Z] [comm-agent] Bot instance created
+[2026-04-29T13:20:24.283Z] [comm-agent] createCommAgent called
+[2026-04-29T13:20:24.286Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:20:24.289Z] [comm-agent] Bot instance created
+[2026-04-29T13:48:23.545Z] [comm-agent] createCommAgent called
+[2026-04-29T13:48:23.548Z] [comm-agent] Initializing Telegraf bot
+[2026-04-29T13:48:23.550Z] [comm-agent] Bot instance created
+[2026-04-30T13:27:28.930Z] [comm-agent] createCommAgent called
+[2026-04-30T13:27:28.933Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T13:27:28.940Z] [comm-agent] Bot instance created
+[2026-04-30T16:23:55.858Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:23:55.861Z] [comm-agent] /start received from 544729737
+[2026-04-30T16:23:58.900Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:23:58.901Z] [comm-agent] SERVICE_LIST button from 544729737
+[2026-04-30T16:23:59.966Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:23:59.968Z] [comm-agent] message event from 544729737 text: 📑 Оформление документов
+[2026-04-30T16:23:59.969Z] [comm-agent] processMessage from 544729737 text: 📑 Оформление документов
+[2026-04-30T16:24:03.260Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:24:03.260Z] [comm-agent] message event from 544729737 text: Vlad
+[2026-04-30T16:24:03.261Z] [comm-agent] processMessage from 544729737 text: Vlad
+[2026-04-30T16:24:06.305Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:24:06.306Z] [comm-agent] message event from 544729737 text: Test
+[2026-04-30T16:24:06.306Z] [comm-agent] processMessage from 544729737 text: Test
+[2026-04-30T16:24:18.634Z] [comm-agent] handleUpdate called [object Object]
+[2026-04-30T16:24:18.635Z] [comm-agent] callback_query: forward_lead:web:molp1pr7-ardih9
+[2026-04-30T17:24:09.931Z] [comm-agent] createCommAgent called
+[2026-04-30T17:24:09.934Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:24:09.936Z] [comm-agent] Bot instance created
+[2026-04-30T17:25:20.385Z] [comm-agent] createCommAgent called
+[2026-04-30T17:25:20.388Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:25:20.391Z] [comm-agent] Bot instance created
+[2026-04-30T17:25:29.316Z] [comm-agent] createCommAgent called
+[2026-04-30T17:25:29.319Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:25:29.322Z] [comm-agent] Bot instance created
+[2026-04-30T17:25:29.829Z] [comm-agent] createCommAgent called
+[2026-04-30T17:25:29.832Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:25:29.834Z] [comm-agent] Bot instance created
+[2026-04-30T17:43:05.863Z] [comm-agent] createCommAgent called
+[2026-04-30T17:43:05.868Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:43:05.872Z] [comm-agent] Bot instance created
+[2026-04-30T17:52:58.695Z] [comm-agent] createCommAgent called
+[2026-04-30T17:52:58.700Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:52:58.704Z] [comm-agent] Bot instance created
+[2026-04-30T17:53:44.209Z] [comm-agent] createCommAgent called
+[2026-04-30T17:53:44.213Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:53:44.217Z] [comm-agent] Bot instance created
+[2026-04-30T17:54:49.091Z] [comm-agent] createCommAgent called
+[2026-04-30T17:54:49.093Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:54:49.096Z] [comm-agent] Bot instance created
+[2026-04-30T17:57:16.632Z] [comm-agent] createCommAgent called
+[2026-04-30T17:57:16.635Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T17:57:16.637Z] [comm-agent] Bot instance created

@@ -84,6 +84,14 @@ module.exports = {
   AGENT_CHAT_ID: process.env.AGENT_CHAT_ID,
   FORWARD_TO_AGENT,
 
+  // Enable logging for telegram-comm-agent
+  logging: {
+    enable: true,
+    logFile: 'bot-log.txt',
+    maxLogLines: 200,
+    logDir: __dirname + '/../',
+  },
+
   // Reusable step definitions (single source of truth)
   STEP_DEFS: {
     budget: 'Пожалуйста, укажите ваш бюджет:',
@@ -113,10 +121,7 @@ module.exports = {
 
   // Robust template functions (top-level)
   FIELD_LABELS,
-  LEAD_TEMPLATE,
-  MSG_TEMPLATE,
-
-  // UI Strings (only Russian/custom overrides)
+  // UI Strings and templates (now includes templates as required by library)
   STRINGS: {
     // Inline callback/followup/approval/decline/unknown action messages (Russian)
     NO_FORWARD_CB: 'Заявка отклонена.',
@@ -134,7 +139,12 @@ module.exports = {
     CONTACT_PROMPT: 'Пожалуйста, напишите ваше имя, бюджет и интересующий район. Я свяжусь с вами в ближайшее время!',
     INVALID_SERVICE: 'Пожалуйста, выберите услугу из списка.',
     LEAD_SENT: 'Ваша заявка отправлена администратору на рассмотрение.',
-    MSG_SENT: 'Ваше сообщение отправлено администратору.'
+    MSG_SENT: 'Ваше сообщение отправлено администратору.',
+    // Template functions for library compatibility
+    LEAD_TEMPLATE,
+    MSG_TEMPLATE,
+    FORWARD_BTN: 'Отправить агенту',
+    NO_FORWARD_BTN: 'Оставить только у администратора'
   },
 
   BUTTONS: {

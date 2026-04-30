@@ -6,7 +6,8 @@ const secrets = require('../../settings/secrets');
 describe('Bot launch integration', () => {
   it('should call bot.launch and process updates', async () => {
     const bot = createCommAgent(config, secrets);
-    const launchSpy = jest.spyOn(bot, 'launch');
+    // Mock launch to prevent real polling
+    const launchSpy = jest.spyOn(bot, 'launch').mockImplementation(() => {});
     if (typeof bot.launch === 'function') {
       bot.launch();
     }
