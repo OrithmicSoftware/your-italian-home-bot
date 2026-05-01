@@ -1,6 +1,6 @@
 {
   "name": "your-italian-home-bot",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "Telegram bot for forwarding leads from the website to admins and agents.",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,15 @@
     "test": "jest",
     "lint": "eslint . --format unix",
     "validate": "node scripts/validate-env.js",
+    "test:lead": "node scripts/test-lead.js",
+    "test:health": "node scripts/test-health.js",
     "postinstall": "npm run validate"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.18.2",
     "telegraf": "^4.16.3",
-    "telegram-comm-agent": "github:OrithmicSoftware/telegram-comm-agent#v1.0.6"
+    "telegram-comm-agent": "github:OrithmicSoftware/telegram-comm-agent#v1.0.8"
   },
   "devDependencies": {
     "eslint": "^10.2.1",

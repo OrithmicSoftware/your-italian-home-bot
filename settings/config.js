@@ -42,7 +42,7 @@ const LEAD_TEMPLATE = (collected, user) => {
     let sender = 'Отправитель:';
     if (user.first_name) sender += ` ${user.first_name}`;
     if (user.last_name) sender += ` ${user.last_name}`;
-    if (user.username) sender += ` (@${user.username})`;
+    if (user.username) sender += ` ([@${user.username}](https://t.me/${user.username}))`;
     msg += `\n${sender}`;
   }
   return msg.trim();
@@ -67,7 +67,7 @@ const MSG_TEMPLATE = (collected, user) => {
     let sender = 'Отправитель:';
     if (user.first_name) sender += ` ${user.first_name}`;
     if (user.last_name) sender += ` ${user.last_name}`;
-    if (user.username) sender += ` (@${user.username})`;
+    if (user.username) sender += ` ([@${user.username}](https://t.me/${user.username}))`;
     msg += `\n${sender}`;
   }
   return msg.trim();

@@ -1,0 +1,120 @@
+[2026-04-30T18:05:55.333Z] [comm-agent] createCommAgent called
+[2026-04-30T18:05:55.335Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:05:55.338Z] [comm-agent] Bot instance created
+[2026-04-30T18:06:23.573Z] [comm-agent] createCommAgent called
+[2026-04-30T18:06:23.575Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:06:23.577Z] [comm-agent] Bot instance created
+[2026-04-30T18:19:06.925Z] [comm-agent] createCommAgent called
+[2026-04-30T18:19:06.928Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:19:06.931Z] [comm-agent] Bot instance created
+[2026-04-30T18:31:17.574Z] [comm-agent] createCommAgent called
+[2026-04-30T18:31:17.578Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:31:17.581Z] [comm-agent] Bot instance created
+[2026-04-30T18:33:46.135Z] [comm-agent] createCommAgent called
+[2026-04-30T18:33:46.144Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:33:46.146Z] [comm-agent] Bot instance created
+[2026-04-30T18:39:35.664Z] [comm-agent] createCommAgent called
+[2026-04-30T18:39:35.676Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:39:35.680Z] [comm-agent] Bot instance created
+[2026-04-30T18:43:17.055Z] [comm-agent] createCommAgent called
+[2026-04-30T18:43:17.058Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:43:17.062Z] [comm-agent] Bot instance created
+[2026-04-30T18:59:01.971Z] [comm-agent] createCommAgent called
+[2026-04-30T18:59:01.974Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T18:59:01.977Z] [comm-agent] Bot instance created
+[2026-04-30T19:00:54.206Z] [comm-agent] createCommAgent called
+[2026-04-30T19:00:54.210Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:00:54.213Z] [comm-agent] Bot instance created
+[2026-04-30T19:03:05.981Z] [comm-agent] createCommAgent called
+[2026-04-30T19:03:05.984Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:03:05.988Z] [comm-agent] Bot instance created
+[2026-04-30T19:04:40.410Z] [comm-agent] createCommAgent called
+[2026-04-30T19:04:40.413Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:04:40.415Z] [comm-agent] Bot instance created
+[2026-04-30T19:05:20.211Z] [comm-agent] createCommAgent called
+[2026-04-30T19:05:20.214Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:05:20.217Z] [comm-agent] Bot instance created
+[2026-04-30T19:07:29.209Z] [comm-agent] createCommAgent called
+[2026-04-30T19:07:29.212Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:07:29.214Z] [comm-agent] Bot instance created
+[2026-04-30T19:09:10.227Z] [comm-agent] createCommAgent called
+[2026-04-30T19:09:10.231Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:09:10.235Z] [comm-agent] Bot instance created
+[2026-04-30T19:09:54.687Z] [comm-agent] createCommAgent called
+[2026-04-30T19:09:54.690Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:09:54.693Z] [comm-agent] Bot instance created
+[2026-04-30T19:14:44.872Z] [comm-agent] createCommAgent called
+[2026-04-30T19:14:44.876Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:14:44.879Z] [comm-agent] Bot instance created
+[2026-04-30T19:15:48.472Z] [comm-agent] createCommAgent called
+[2026-04-30T19:15:48.474Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:15:48.478Z] [comm-agent] Bot instance created
+[2026-04-30T19:16:49.756Z] [comm-agent] createCommAgent called
+[2026-04-30T19:16:49.759Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:16:49.764Z] [comm-agent] Bot instance created
+[2026-04-30T19:28:57.452Z] [comm-agent] createCommAgent called
+[2026-04-30T19:28:57.454Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:28:57.458Z] [comm-agent] Bot instance created
+[2026-04-30T19:29:06.645Z] [comm-agent] createCommAgent called
+[2026-04-30T19:29:06.648Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:29:06.651Z] [comm-agent] Bot instance created
+[2026-04-30T19:30:48.510Z] [comm-agent] createCommAgent called
+[2026-04-30T19:30:48.514Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:30:48.517Z] [comm-agent] Bot instance created
+[2026-04-30T19:30:55.174Z] [comm-agent] createCommAgent called
+[2026-04-30T19:30:55.177Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:30:55.180Z] [comm-agent] Bot instance created
+[2026-04-30T19:31:43.861Z] [comm-agent] createCommAgent called
+[2026-04-30T19:31:43.864Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T19:31:43.867Z] [comm-agent] Bot instance created
+[2026-04-30T20:04:11.873Z] [comm-agent] createCommAgent called
+[2026-04-30T20:04:11.877Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:04:11.880Z] [comm-agent] Bot instance created
+[2026-04-30T20:04:26.357Z] [comm-agent] createCommAgent called
+[2026-04-30T20:04:26.360Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:04:26.368Z] [comm-agent] Bot instance created
+[2026-04-30T20:10:41.852Z] [comm-agent] createCommAgent called
+[2026-04-30T20:10:41.855Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:10:41.857Z] [comm-agent] Bot instance created
+[2026-04-30T20:18:34.837Z] [comm-agent] createCommAgent called
+[2026-04-30T20:18:34.841Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:18:34.843Z] [comm-agent] Bot instance created
+[2026-04-30T20:19:42.985Z] [comm-agent] createCommAgent called
+[2026-04-30T20:19:42.987Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:19:42.989Z] [comm-agent] Bot instance created
+[2026-04-30T20:38:46.208Z] [comm-agent] createCommAgent called
+[2026-04-30T20:38:46.210Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:38:46.212Z] [comm-agent] Bot instance created
+[2026-04-30T20:40:08.309Z] [comm-agent] createCommAgent called
+[2026-04-30T20:40:08.309Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:40:08.312Z] [comm-agent] Bot instance created
+[2026-04-30T20:40:20.133Z] [comm-agent] createCommAgent called
+[2026-04-30T20:40:20.134Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:40:20.136Z] [comm-agent] Bot instance created
+[2026-04-30T20:57:57.568Z] [comm-agent] createCommAgent called
+[2026-04-30T20:57:57.569Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:57:57.570Z] [comm-agent] Bot instance created
+[2026-04-30T20:59:09.008Z] [comm-agent] createCommAgent called
+[2026-04-30T20:59:09.011Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T20:59:09.014Z] [comm-agent] Bot instance created
+[2026-04-30T21:00:13.602Z] [comm-agent] createCommAgent called
+[2026-04-30T21:00:13.604Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T21:00:13.606Z] [comm-agent] Bot instance created
+[2026-04-30T21:03:08.607Z] [comm-agent] createCommAgent called
+[2026-04-30T21:03:08.608Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T21:03:08.610Z] [comm-agent] Bot instance created
+[2026-04-30T21:03:39.630Z] [comm-agent] createCommAgent called
+[2026-04-30T21:03:39.631Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T21:03:39.634Z] [comm-agent] Bot instance created
+[2026-04-30T21:04:08.238Z] [comm-agent] createCommAgent called
+[2026-04-30T21:04:08.239Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T21:04:08.241Z] [comm-agent] Bot instance created
+[2026-04-30T21:05:07.333Z] [comm-agent] createCommAgent called
+[2026-04-30T21:05:07.333Z] [comm-agent] Initializing Telegraf bot
+[2026-04-30T21:05:07.335Z] [comm-agent] Bot instance created
+[2026-05-01T04:24:27.577Z] [comm-agent] createCommAgent called
+[2026-05-01T04:24:27.578Z] [comm-agent] Initializing Telegraf bot
+[2026-05-01T04:24:27.579Z] [comm-agent] Bot instance created
+[2026-05-01T04:42:05.841Z] [comm-agent] createCommAgent called
+[2026-05-01T04:42:05.842Z] [comm-agent] Initializing Telegraf bot
+[2026-05-01T04:42:05.843Z] [comm-agent] Bot instance created
