@@ -6,7 +6,8 @@ const FIELD_LABELS = {
   service: 'Услуга',
   budget: 'Бюджет',
   district: 'Район',
-  message: 'Сообщение'
+  message: 'Сообщение',
+  source: 'Источник'
 };
 // Centralized config and strings for your-italian-home-bot
 
@@ -143,6 +144,7 @@ module.exports = {
     // Template functions for library compatibility
     LEAD_TEMPLATE,
     MSG_TEMPLATE,
+    SOURCE_LABEL: 'Источник',
     FORWARD_BTN: 'Отправить агенту',
     NO_FORWARD_BTN: 'Оставить только у администратора'
   },

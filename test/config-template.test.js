@@ -18,6 +18,7 @@ describe('Config template interface', () => {
       name: 'Иван',
       phone: '+79991234567',
       message: 'Хочу купить квартиру',
+      source: 'instagram',
     };
     const output = config.STRINGS.MSG_TEMPLATE(collected);
     expect(output).toMatch(/Сообщение: Хочу купить квартиру/);
@@ -26,5 +27,6 @@ describe('Config template interface', () => {
     expect(output).toMatch(/Район: Центр/);
     expect(output).toMatch(/Имя: Иван/);
     expect(output).toMatch(/Телефон: \+79991234567/);
+    expect(output).toMatch(/Источник: instagram/);
   });
 });
