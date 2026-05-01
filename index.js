@@ -15,6 +15,7 @@ createLeadWebServer({
   port,
   botInstance: bot,
   formatLead: config.STRINGS.LEAD_TEMPLATE,
-  STRINGS: config.STRINGS
+  STRINGS: config.STRINGS,
+  TRACK_DESTINATIONS: config.TRACK_DESTINATIONS
 });
 console.log(`[your-italian-home-bot] Web server listening on port ${port}`);

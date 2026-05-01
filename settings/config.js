@@ -21,6 +21,8 @@ const SERVICES_OBJ = {
   consult: '🗣 Консультации по переезду и жизни в Италии'
 };
 
+// Robust template functions (always accept full collected object)
+
 // Both templates now accept (collected, user)
 const LEAD_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
@@ -49,14 +51,9 @@ const LEAD_TEMPLATE = (collected, user) => {
 
 const MSG_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
-  let title = '🤖 Лид из бота 🎉';
-  let msg = '';
+  let msg = '🤖 Лид из бота 🎉\n';
   for (const k of Object.keys(FIELD_LABELS)) {
-    if (k === 'source') {
-      if (allFields[k]?.startsWith('https://'))
-        title = '🌐 Лид с сайта 🎉';
-      msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
-    } else if (k === 'service' && allFields[k]) {
+    if (k === 'service' && allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
     } else if (allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
@@ -74,7 +71,7 @@ const MSG_TEMPLATE = (collected, user) => {
     if (user.username) sender += ` ([@${user.username}](https://t.me/${user.username}))`;
     msg += `\n${sender}`;
   }
-  return title + "\n" + msg.trim();
+  return msg.trim();
 };
 
 // FORWARD_TO_AGENT: 'no', 'all', or 'ask'
@@ -87,6 +84,12 @@ module.exports = {
   ADMIN_CHAT_ID: process.env.ADMIN_CHAT_ID,
   AGENT_CHAT_ID: process.env.AGENT_CHAT_ID,
   FORWARD_TO_AGENT,
+
+  // Click-tracking redirect destinations: key = ?to= value, value = redirect URL
+  TRACK_DESTINATIONS: {
+    telegram: 'https://t.me/italian_home_bot',
+    whatsapp: 'https://wa.me/972538276702',
+  },
 
   // Enable logging for telegram-comm-agent
   logging: {
