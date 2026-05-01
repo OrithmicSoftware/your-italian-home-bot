@@ -21,8 +21,6 @@ const SERVICES_OBJ = {
   consult: '🗣 Консультации по переезду и жизни в Италии'
 };
 
-// Robust template functions (always accept full collected object)
-
 // Both templates now accept (collected, user)
 const LEAD_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
@@ -51,9 +49,14 @@ const LEAD_TEMPLATE = (collected, user) => {
 
 const MSG_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
-  let msg = '🤖 Лид из бота 🎉\n';
+  let title = '🤖 Лид из бота 🎉';
+  let msg = '';
   for (const k of Object.keys(FIELD_LABELS)) {
-    if (k === 'service' && allFields[k]) {
+    if (k === 'source') {
+      if (allFields[k]?.startsWith('https://'))
+        title = '🌐 Лид с сайта 🎉';
+      msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
+    } else if (k === 'service' && allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
     } else if (allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${allFields[k]}\n`;
@@ -71,7 +74,7 @@ const MSG_TEMPLATE = (collected, user) => {
     if (user.username) sender += ` ([@${user.username}](https://t.me/${user.username}))`;
     msg += `\n${sender}`;
   }
-  return msg.trim();
+  return title + "\n" + msg.trim();
 };
 
 // FORWARD_TO_AGENT: 'no', 'all', or 'ask'
