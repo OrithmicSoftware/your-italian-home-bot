@@ -25,7 +25,7 @@ const SERVICES_OBJ = {
 // Both templates now accept (collected, user)
 const LEAD_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
-  let msg = `Лид с сайта:\n`;
+  let msg = `🌐 Лид с сайта 🎉\n`;
   for (const k of Object.keys(FIELD_LABELS)) {
     if (k === 'service' && allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
@@ -50,7 +50,7 @@ const LEAD_TEMPLATE = (collected, user) => {
 
 const MSG_TEMPLATE = (collected, user) => {
   const allFields = { ...collected };
-  let msg = 'Лид из бота:\n';
+  let msg = '🤖 Лид из бота 🎉\n';
   for (const k of Object.keys(FIELD_LABELS)) {
     if (k === 'service' && allFields[k]) {
       msg += `${FIELD_LABELS[k]}: ${SERVICES_OBJ[allFields[k]] || allFields[k]}\n`;
